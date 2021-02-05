@@ -28,5 +28,4 @@ int main(void)
 		n, b);
 	}
 	return (0);
-
 }
