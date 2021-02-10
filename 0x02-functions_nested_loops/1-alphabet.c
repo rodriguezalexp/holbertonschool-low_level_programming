@@ -1,16 +1,15 @@
 #include "holberton.h"
-
 /**
- * main - print alphabet.
- * Description: print alphabet.
- * Return: Always 0.
+ * print_alphabet - prototype print
+ * Return: nose
  */
+
 void print_alphabet(void)
 {
 	int a;
 
 	for (a = 'a'; a <= 'z'; a++)
-		putchar (a);
+		_putchar (a);
 
-	putchar (10);
+	_putchar (10);
 }
