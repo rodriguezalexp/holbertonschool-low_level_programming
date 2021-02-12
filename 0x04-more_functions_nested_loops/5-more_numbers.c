@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_numbers - 1 to 14
+ * more_numbers - 1 to 14
  *
  * Return: void
  */
