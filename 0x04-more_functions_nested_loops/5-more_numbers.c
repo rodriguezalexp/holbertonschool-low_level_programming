@@ -9,7 +9,7 @@
 void more_numbers(void)
 
 {
-	int a, i;
+	char a, i;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -25,5 +25,5 @@ void more_numbers(void)
 
 		_putchar ('\n');
 	}
-	
+
 }
