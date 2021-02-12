@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_numbers - checks for a digit
+ * print_most_numbers - checks for a digit
  *
  * Return: void
  */
