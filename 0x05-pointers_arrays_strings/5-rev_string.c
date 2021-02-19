@@ -7,9 +7,8 @@
  * Return: void
  */
 void rev_string(char *s)
-
 {
-	char copy[50];
+	char copy[893];
 	int j = 0;
 	int i = 0;
 
@@ -20,6 +19,7 @@ void rev_string(char *s)
 		i++;
 
 	}
+	copy[i] = 0;
 	i--;
 	while (i >= 0)
 	{
