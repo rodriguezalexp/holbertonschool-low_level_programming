@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* factorial - print string
+* _pow_recursion - print string
 * @x: base;
 * @y: exponent;
 *
