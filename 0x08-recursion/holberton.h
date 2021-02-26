@@ -8,3 +8,6 @@ int _sqrt_recursion(int n);
 int inverse_pow(int i, int j);
 int is_prime_number(int n);
 int prime(int x, int i);
+int is_palindrome(char *s);
+int chequeelo(char *s, int l, int i);
+int recursive_longitud(char *s, int i);
