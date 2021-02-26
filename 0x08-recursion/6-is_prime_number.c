@@ -10,7 +10,7 @@ int is_prime_number(int n)
 
 
 {
-	if (y <= 1)
+	if (n <= 1)
 	{
 		return (0);
 	}
