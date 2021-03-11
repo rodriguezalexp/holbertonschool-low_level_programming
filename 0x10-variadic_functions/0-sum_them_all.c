@@ -3,8 +3,7 @@
 #include <stdlib.h>
 /**
  * sum_them_all - sums of all its parameters
- * @n: number of parameters
- *
+ * @n: number of arguments
  * Return: sum
  */
 int sum_them_all(const unsigned int n, ...)
@@ -21,4 +20,3 @@ int sum_them_all(const unsigned int n, ...)
 	va_end(parametros);
 	return (s);
 }
-
