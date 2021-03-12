@@ -3,8 +3,8 @@
 #include <stdarg.h>
 /**
  * print_numbers - prints numbers
- * @n: number of arguments
  * @separator: char separator
+ * @n: number of arguments
  * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -14,7 +14,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list numeros;
 
 	va_start(numeros, n);
-
 	for (i = 0; i < n; i++)
 	{
 		prt = va_arg(numeros, int);
@@ -23,7 +22,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		{
 			printf("%s", separator);
 		}
-		printf("\n");
-		va_end(numeros);
 	}
+	printf("\n");
+	va_end(numeros);
 }
