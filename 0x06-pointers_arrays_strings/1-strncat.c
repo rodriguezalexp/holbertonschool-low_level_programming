@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * _strcat - appends src to the dest string
+ * _strncat - appends src to the dest string
  * @dest: string to append by src
  * @src: string to append to dest
  * @n: number of bytes from src
@@ -10,8 +10,8 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
-	i = j = 0;
 
+	i = j = 0;
 	while (*(dest + i))
 		i++;
 	while (j < n && *(src + j))
